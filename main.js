@@ -14,14 +14,14 @@ document.querySelector('.js-add-todo-button').addEventListener('click', () => {
 function renderToDoList(){
    let todoListHTMl = '';
 
-   todoList.forEach((todoObject, index) => {
-      const {name, dueDate} = todoObject;
-      const html = `
-         <div>${name}</div>
-         <div>${dueDate}</div>
-         <button class="delete-todo-button js-delete-todo-button">Delete</button> 
-            `;
-      todoListHTMl += html;
+      todoList.forEach((todoObject, index) => {
+         const {name, dueDate} = todoObject;
+         const html = `
+            <div>${name}</div>
+            <div>${dueDate}</div>
+            <button class="delete-todo-button js-delete-todo-button">Delete</button> 
+               `;
+         todoListHTMl += html;
    });
 
       document.querySelector('.js-todo-list').innerHTML = todoListHTMl;
