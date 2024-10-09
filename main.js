@@ -1,9 +1,9 @@
 const todoList = [{
    name: 'make dinner',
-   dueDate: '2024-8-19'
+   dueDate: '2024-9-19'
 }, {
    name:'wash dishes',
-   dueDate: '2024-8-19'}];
+   dueDate: '2024-9-19'}];
 
 renderToDoList();
 
@@ -15,7 +15,7 @@ function renderToDoList(){
    let todoListHTMl = '';
 
       todoList.forEach((todoObject, index) => {
-         const {name, dueDate} = todoObject;
+         const { name, dueDate } = todoObject;
          const html = `
             <div>${name}</div>
             <div>${dueDate}</div>
