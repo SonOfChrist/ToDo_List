@@ -1,9 +1,8 @@
+// Array, Looping, Objects, generating Html, 
 const todoList = [{
    name: 'make dinner',
-   dueDate: '2024-9-19'
-}, {
-   name:'wash dishes',
-   dueDate: '2024-9-19'}];
+   dueDate: '2024-11-15'
+}];
 
 renderToDoList();
 
