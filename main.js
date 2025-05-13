@@ -14,9 +14,9 @@ function renderToDoList(){
    let todoListHTMl = '';
 
       todoList.forEach((todoObject, index) => {
-         const { name, dueDate } = todoObject;
+         const { name, dueDate } = todoObject;             //Destructuring method
          const html = `
-            <div>${name}</div>
+            <div>${name}</div>                  
             <div>${dueDate}</div>
             <button class="delete-todo-button js-delete-todo-button">Delete</button> 
                `;
@@ -37,7 +37,7 @@ function addTodo() {
    const name = inputElement.value;
    const dateInputElement = document.querySelector('.js-due-date-input');
    const dueDate = dateInputElement.value;
-   todoList.push({name, dueDate});
+   todoList.push({name, dueDate});           //shorthand propertysyntax
    inputElement.value = '';
    renderToDoList();
 }
