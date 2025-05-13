@@ -1,6 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+/* this feature is known as Css Grid, drid itself olaso have extra features */
 .todo-grid,
 .todo-input-grid{
     display: grid;
