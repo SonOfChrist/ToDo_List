@@ -7,7 +7,7 @@
 - Html Css Javascript {Array & Loops [Looping Through the arrays]}
 
 - Generate the Delete using javascript
-- 
+
 
 ## Snapshot Of The List
  <img src="Images/todoList.png" alt="to-Do-Stanley-mochoge-List">
