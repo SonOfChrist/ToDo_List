@@ -1,8 +1,7 @@
-// Array, Looping, Objects, generating Html, 
-const todoList = [{
-   name: 'make dinner',
-   dueDate: '2024-11-15'
-}];
+// This is the main JavaScript file for the Todo List application
+// It handles the rendering of the todo list and the addition of new todo items
+const todoList = [{ name: 'make dinner', dueDate: '2025-06-12', completed: true },
+                  { name: 'wash the car', dueDate: '2025-06-13', completed: false}];
 
 renderToDoList();
 
@@ -10,6 +9,7 @@ document.querySelector('.js-add-todo-button').addEventListener('click', () => {
    addTodo();
 });
 
+// Function to render the todo list on the page
 function renderToDoList(){
    let todoListHTMl = '';
 
@@ -25,13 +25,14 @@ function renderToDoList(){
 
       document.querySelector('.js-todo-list').innerHTML = todoListHTMl;
 
-      document.querySelectorAll('.js-delete-todo-button', ).forEach((deleteButton, index) => {
+      document.querySelectorAll('.js-delete-todo-button').forEach((deleteButton, index) => {
          deleteButton.addEventListener('click', () => {
             todoList.splice(index, 1);
             renderToDoList();
          });
       });
 }
+// Function to add a new todo item
 function addTodo() {
    const inputElement = document.querySelector('.js-name-input');
    const name = inputElement.value;
