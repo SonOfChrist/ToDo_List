@@ -29,13 +29,11 @@ A dynamic, interactive web app to manage your daily tasks with due dates.
 3. **Delete Tasks:** Remove tasks instantly with the "Delete" button.
 4. **Live Updates:** The list updates in real-time as you interact.
 
----
 
 ## 📸 Screenshots
 
 <img src="Images/Data-List.png" alt="Data-List" width="400">
 
----
 
 ## ⚡ Quick Start
 
