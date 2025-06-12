@@ -12,7 +12,7 @@
 
  ### ⚙️ Quick Start
 ```bash
-git clone https://github.com/SonOfChrist/ChatBot-Project
+git clone https://github.com/SonOfChrist/ToDo_List.git
 cd yourproject
 go to LiveServer
 
