@@ -1,61 +1,65 @@
-# 🛒 Amazon Project
+# 📝 To-Do List App
 
-Welcome to the **Amazon Project**!  
-Created by **Stanley Mochoge** and inspired by [SuperSimpleDev](https://www.youtube.com/watch?v=EerdGm-ehJQ&t=36643s), this project is designed to help developers build dynamic, professional websites using JavaScript.
+A dynamic, interactive web app to manage your daily tasks with due dates.
 
 ---
 
 ## 🚀 Features
 
-- **Amazon Buying & Payment Structure**  
-  <img src="./images/README/Front and PaymentStructure.png" alt="AmazonSystem-Buying && PaymentStructure" width="600">
-
-- **Data Analysis with Power BI**  
-  Comprehensive sales data analysis using Excel, SQL, and Power BI for actionable insights and recommendations.  
-  <img src="./images/Power-Bi/PowerBi-Project Screen Shot.png" alt="Power-Bi-Insight_Project" width="600">
-
-- **Order & Returns Management**  
-  View and manage product returns and related services.  
-  <img src="./images/README/Order and Return Orders.png" alt="Orders-Returning-Orders" width="600">
-
-- **Product Arrival Tracking**  
-  Track shipment dates and product arrivals.  
-  <img src="./images/README/Product arriving.png" alt="Products-arrival" width="600">
-
-- **Automated Testing with Jasmine**  
-  Automated integration tests for the Amazon Project.  
-  <img src="./images/Testing/JasmineTest Framework Pass.png" alt="Jasmine-Automated-Integration" width="600">
+- Add, view, and delete to-do items
+- Set due dates for each task
+- Data stored in a JavaScript array
+- Dynamic HTML rendering using JavaScript
+- Responsive and interactive UI
 
 ---
 
-## 🛠️ Quick Start
+## 🛠️ Built With
 
-1. **Clone the repository**
-    ```bash
-    git clone https://github.com/SonOfChrist/AmazonWebsite.git
-    cd AmazonWebsite
-    ```
-
-2. **Install dependencies**
-    ```bash
-    npm install
-    ```
-
-3. **Run the project**
-    - Open with Live Server in VS Code or your preferred method.
+- **HTML** – Structure
+- **CSS** – Styling
+- **JavaScript** – Logic (Array methods, loops, DOM manipulation)
 
 ---
 
-## 📊 Data Insights
+## 📦 How It Works
 
-- Sales data analyzed with Power BI, Excel, and SQL.
-- Actionable recommendations provided based on insights.
+1. **Add Tasks:** Enter a task and due date, then click "Add".
+2. **View Tasks:** All tasks are displayed dynamically.
+3. **Delete Tasks:** Remove tasks instantly with the "Delete" button.
+4. **Live Updates:** The list updates in real-time as you interact.
 
 ---
 
-## 👨‍💻 Author
+## 📸 Screenshots
 
-<p align="center">
-  <b>Created by Stanley Mochoge</b>  
-  <a href="https://supersimple.dev/">supersimple.dev</a>
-</p>
+<img src="Images/Data-List.png" alt="Data-List" width="400">
+
+---
+
+## ⚡ Quick Start
+
+```bash
+git clone https://github.com/SonOfChrist/ToDo_List.git
+cd ToDo_List
+# Open index.html in your browser or use Live Server in VS Code
+```
+
+---
+
+## 📚 Concepts Demonstrated
+
+- Saving and managing data in arrays
+- Generating HTML dynamically
+- Making web pages interactive with JavaScript
+- Using loops to process data
+
+---
+
+## 💡 Customization
+
+- You can extend the app to support editing tasks, marking as complete, or saving data to local storage.
+
+---
+
+Enjoy organizing your tasks!
