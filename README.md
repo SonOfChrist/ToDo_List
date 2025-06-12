@@ -1,13 +1,18 @@
-# ToDo_List
+# To-Do_List / Data-List
 - It will Have a List of to Do and the Due Date
+- Data-List is a simple App to list things to do.
 ## [ all  Javascript programme ]
 1. Save the Data
 2. Generate the HTML [through Html Elements]
 3. Make it interactive
 - Html Css Javascript {Array & Loops [Looping Through the arrays]}
 
-- Generate the Delete using javascript
-
-
-## Snapshot Of The List
+### 📸 Screenshots
  <img src="Images/Data-List.png" alt="Data-List">
+
+ ### ⚙️ Quick Start
+```bash
+git clone https://github.com/SonOfChrist/ChatBot-Project
+cd yourproject
+go to LiveServer
+
