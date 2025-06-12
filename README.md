@@ -10,4 +10,4 @@
 
 
 ## Snapshot Of The List
- <img src="Images/todoList.png" alt="to-Do-Stanley-mochoge-List">
+ <img src="Images/Data-List.png" alt="Data-List">

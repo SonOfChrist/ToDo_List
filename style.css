@@ -2,8 +2,15 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 /* this feature is known as Css Grid, drid itself olaso have extra features */
+h1, p {
+    text-align: center;
+}
 .todo-grid,
 .todo-input-grid{
+    margin: 20px auto;
+    width: 600px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
     display: grid;
     grid-template-columns: 200px 150px 100px;
     column-gap: 10px;
