@@ -1,7 +1,6 @@
-// This is the main JavaScript file for the Todo List application
-// It handles the rendering of the todo list and the addition of new todo items
 const todoList = [{ name: 'make dinner', dueDate: '2025-06-12', completed: true },
-                  { name: 'wash the car', dueDate: '2025-06-13', completed: false}];
+                  { name: 'wash the car', dueDate: '2025-06-13', completed: false}
+                 ]; // Initial todo list with two items
 
 renderToDoList();
 
@@ -40,5 +39,41 @@ function addTodo() {
    const dueDate = dateInputElement.value;
    todoList.push({name, dueDate});           //shorthand propertysyntax
    inputElement.value = '';
+   dateInputElement.value = ''; 
    renderToDoList();
+}
+
+
+
+// Function to display error messages
+function displayErrorMessage(message) {
+   const errorMessageElement = document.querySelector('.js-error-message');
+   errorMessageElement.textContent = message;
+   errorMessageElement.style.display = 'block';
+   setTimeout(() => {
+      errorMessageElement.style.display = 'none';
+   }, 3000);
+}
+// Function to display success messages
+function displaySuccessMessage(message) {
+   const successMessageElement = document.querySelector('.js-success-message');
+   successMessageElement.textContent = message;
+   successMessageElement.style.display = 'block';
+   setTimeout(() => {
+      successMessageElement.style.display = 'none';
+   }, 3000);
+}
+// Function to validate the todo item
+function validateTodoItem(name, dueDate) {
+   if (!name || !dueDate) {
+      displayErrorMessage('Please fill in both fields.');
+      return false;
+   }
+   const today = new Date();
+   const dueDateObject = new Date(dueDate);
+   if (dueDateObject < today) {
+      displayErrorMessage('Due date cannot be in the past.');
+      return false;
+   }
+   return true;
 }
